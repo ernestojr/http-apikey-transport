@@ -1,5 +1,5 @@
 {
-  "name": "hustling-transport",
+  "name": "http-apikey-transport",
   "version": "1.0.0",
   "description": "This is a transport http and https for winston whit authorization by apikey. It is a transport only for send logs.",
   "main": "index.js",
