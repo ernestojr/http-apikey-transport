@@ -30,7 +30,7 @@ The transport will send the data by POST method with the following format:
     "service": "It is a identifier",
     "level": "info",
     "message": "Hello world",
-    "metadata": {
+    "meta": {
         "anything": "This is metadata"
     }
 }
