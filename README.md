@@ -1,4 +1,4 @@
-# Http Apikey Transorte
+# Http Apikey Transport
 
 This is a transport http and https for winston whit authorization by apikey. It is a transport only for send logs.
 
@@ -6,11 +6,11 @@ This is a transport http and https for winston whit authorization by apikey. It 
 
 ```javascript
 const winston = require('winston')
-const HttpTransporte = require('http-apikey-transport')
+const HttpTransport = require('http-apikey-transport')
 const logger = new (winston.Logger)({
   rewriters: [],
   transports: [
-    new HttpTransporte({
+    new HttpTransport({
       uri: "http://it-is-your-api-route/logs",
       apikey: "thi is the apikey value",
       service: "It is a identifier"
